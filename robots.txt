@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Vervang JOUWDOMEIN.nl door je echte domeinnaam:
+Sitemap: https://JOUWDOMEIN.nl/sitemap.xml

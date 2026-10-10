@@ -1,0 +1,7 @@
+{
+  "name": "binck-tuinen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website van Binck Tuinen",
+  "engines": { "node": ">=18" }
+}
