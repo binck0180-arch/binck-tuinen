@@ -40,13 +40,14 @@
 - Elke wijziging die je naar GitHub stuurt, wordt door Vercel automatisch opnieuw gepubliceerd.
 
 ## Foto's vervangen
-Vervang bestanden in `img/` door je eigen foto's met **dezelfde bestandsnaam** (JPG, liefst ~1400 px breed en onder 300 KB):
-- `hero.jpg`: wazige tuinachtergrond van de homepage (gemaakt van de foto bij je logo, met het logo eruit gehaald). Vervang door een eigen tuinfoto, liefst 2000 px breed.
-- `dienst-tuinaanleg.jpg`, `dienst-tuinrenovatie.jpg`, `dienst-tuinonderhoud.jpg`
-- Galerij: `achtertuin-1.jpg`, `achtertuin-2.jpg`, `terras-1.jpg`, `terras-2.jpg`, `gazon-1.jpg`, `borders-1.jpg`, `snoei-1.jpg`
-- Voor/na: `voor.jpg` en `na.jpg`
+Vervang bestanden in `img/` door nieuwe foto's met **dezelfde bestandsnaam** (JPG):
+- `hero.jpg`: wazige tuinachtergrond van de homepage (liefst 2000 px breed).
+- `dienst-tuinaanleg.jpg`, `dienst-tuinrenovatie.jpg`, `dienst-tuinonderhoud.jpg`: foto's bij de diensten.
+- `hovenier.jpg` (homepage) en `aan-het-werk.jpg` (Over ons).
+- Fotogalerij "Ons werk": `werk-1.jpg` t/m `werk-8.jpg` (kleine versie, ~800 px breed, voor in de galerij) en `werk-1-groot.jpg` t/m `werk-8-groot.jpg` (grote versie voor als je erop klikt, ~1600 px).
+- Voor/na-schuif (voorbeeldillustraties): `voor.jpg` en `na.jpg`. Vervang die door een eigen voor-en-na-foto van dezelfde tuin en pas daarna de tekst "Dit is een voorbeeld ter illustratie" in `ons-werk.html` aan.
 
-Verwijder daarna in `ons-werk.html` de notitie "dit zijn voorbeeldafbeeldingen" en pas de `alt`-teksten aan (haal "(voorbeeldafbeelding)" weg). Een foto toevoegen aan de galerij: kopieer in `ons-werk.html` een `<figure>`-blok en pas bestandsnaam en titel aan.
+Een foto toevoegen aan de galerij: kopieer in `ons-werk.html` een `<figure>`-blok, pas de bestandsnamen, de titel en de `alt`-tekst aan, en zet de kleine en grote versie in `img/`.
 
 ## Logo
 `img/logo.png` is een transparante versie van je logo (alleen de witte logo-vormen, ongewijzigd). Het origineel staat in `img/logo-origineel.png`. De favicon is gemaakt van het plantje-met-schop-icoon.
