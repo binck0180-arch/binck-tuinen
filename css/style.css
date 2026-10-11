@@ -258,8 +258,6 @@ p{margin:0 0 1em}
   .fade{opacity:1;transform:none}
 }
 
-.hero h1 .hero__logo{width:min(500px,86%);height:auto;margin:0 0 1.1rem -4px}
-.hero h1 span{margin-top:0}
 
 /* Dienstkaarten op de homepage: hele kaart klikbaar naar de dienstenpagina */
 .dienst--link{position:relative;cursor:pointer}
