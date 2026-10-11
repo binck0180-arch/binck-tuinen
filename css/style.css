@@ -265,4 +265,4 @@ p{margin:0 0 1em}
 
 /* Foto hovenier in de intro */
 .intro__foto img{object-position:50% 30%}
-@media(max-width:860px){.intro__foto img{aspect-ratio:1/1}}
+@media(max-width:860px){.intro__foto img{aspect-ratio:4/5;object-position:50% 70%}}
