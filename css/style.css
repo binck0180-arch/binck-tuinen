@@ -262,3 +262,7 @@ p{margin:0 0 1em}
 /* Dienstkaarten op de homepage: hele kaart klikbaar naar de dienstenpagina */
 .dienst--link{position:relative;cursor:pointer}
 .dienst--link .btn--kaart::after{content:"";position:absolute;inset:0;border-radius:var(--radius)}
+
+/* Foto hovenier in de intro */
+.intro__foto img{object-position:50% 30%}
+@media(max-width:860px){.intro__foto img{aspect-ratio:1/1}}
