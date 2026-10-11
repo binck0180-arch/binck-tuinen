@@ -1,7 +1,7 @@
 # Website Binck Tuinen – handleiding
 
 ## Wat zit erin
-- `index.html`, `diensten.html`, `ons-werk.html`, `over-ons.html`, `contact.html`, `privacy.html`, `bedankt.html`
+- `index.html`, `diensten.html`, `projecten.html`, `over-ons.html`, `contact.html`, `privacy.html`, `bedankt.html`
 - `css/style.css` (kleuren en lettertypen bovenaan in `:root`), `js/main.js`
 - `api/verstuur.js`: verwerkt het contactformulier op Vercel en mailt naar Bincktuinen@gmail.com
 - `img/`: logo, favicon en voorbeeldafbeeldingen
@@ -44,10 +44,12 @@ Vervang bestanden in `img/` door nieuwe foto's met **dezelfde bestandsnaam** (JP
 - `hero.jpg`: wazige tuinachtergrond van de homepage (liefst 2000 px breed).
 - `dienst-tuinaanleg.jpg`, `dienst-tuinrenovatie.jpg`, `dienst-tuinonderhoud.jpg`: foto's bij de diensten.
 - `hovenier.jpg` (homepage) en `aan-het-werk.jpg` (Over ons).
-- Fotogalerij "Ons werk": `werk-1.jpg` t/m `werk-8.jpg` (kleine versie, ~800 px breed, voor in de galerij) en `werk-1-groot.jpg` t/m `werk-8-groot.jpg` (grote versie voor als je erop klikt, ~1600 px).
-- Voor/na-schuif (voorbeeldillustraties): `voor.jpg` en `na.jpg`. Vervang die door een eigen voor-en-na-foto van dezelfde tuin en pas daarna de tekst "Dit is een voorbeeld ter illustratie" in `ons-werk.html` aan.
+- Fotogalerij "Onze projecten": `werk-1.jpg` t/m `werk-8.jpg` (kleine versie, ~800 px breed, voor in de galerij) en `werk-1-groot.jpg` t/m `werk-8-groot.jpg` (grote versie voor als je erop klikt, ~1600 px).
+- Voor/na-schuif (voorbeeldillustraties): `voor.jpg` en `na.jpg`. Vervang die door een eigen voor-en-na-foto van dezelfde tuin en pas daarna de tekst "Dit is een voorbeeld ter illustratie" in `projecten.html` aan.
 
-Een foto toevoegen aan de galerij: kopieer in `ons-werk.html` een `<figure>`-blok, pas de bestandsnamen, de titel en de `alt`-tekst aan, en zet de kleine en grote versie in `img/`.
+- Video: `video/project-video.mp4` en de beginafbeelding `video/project-video-poster.jpg`. Een nieuwe video? Zet hem als MP4 (H.264, liefst kleiner dan ~5 MB) in de map `video` en pas de bestandsnaam aan in `projecten.html`. Een iPhone-film (.MOV) eerst omzetten naar MP4.
+
+Een foto toevoegen aan de galerij: kopieer in `projecten.html` een `<figure>`-blok, pas de bestandsnamen, de titel en de `alt`-tekst aan, en zet de kleine en grote versie in `img/`.
 
 ## Logo
 `img/logo.png` is een transparante versie van je logo (alleen de witte logo-vormen, ongewijzigd). Het origineel staat in `img/logo-origineel.png`. De favicon is gemaakt van het plantje-met-schop-icoon.

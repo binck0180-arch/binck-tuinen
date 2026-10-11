@@ -266,3 +266,7 @@ p{margin:0 0 1em}
 /* Foto hovenier in de intro */
 .intro__foto img{object-position:50% 30%}
 @media(max-width:860px){.intro__foto img{aspect-ratio:1/1}}
+
+/* Video bij Onze projecten */
+.project-video{max-width:380px;margin:0 auto;border-radius:var(--radius);overflow:hidden;box-shadow:var(--schaduw);background:#10281d}
+.project-video video{display:block;width:100%;height:auto;aspect-ratio:9/16;background:#10281d}
